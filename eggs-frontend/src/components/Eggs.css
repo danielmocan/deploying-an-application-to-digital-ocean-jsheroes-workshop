@@ -1,0 +1,27 @@
+
+.eggs-list {
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .small {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .medium {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .large {
+    width: 35px;
+    height: 35px;
+  }
+  

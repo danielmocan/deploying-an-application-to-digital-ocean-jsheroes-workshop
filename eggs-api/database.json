@@ -64,6 +64,16 @@
       "size": "large",
       "type": "duck",
       "id": 14
+    },
+    {
+      "size": "small",
+      "type": "chicken",
+      "id": 15
+    },
+    {
+      "size": "medium",
+      "type": "chicken",
+      "id": 16
     }
   ]
 }

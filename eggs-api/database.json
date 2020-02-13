@@ -74,6 +74,36 @@
       "size": "medium",
       "type": "chicken",
       "id": 16
+    },
+    {
+      "size": "medium",
+      "type": "chicken",
+      "id": 17
+    },
+    {
+      "size": "medium",
+      "type": "duck",
+      "id": 18
+    },
+    {
+      "size": "medium",
+      "type": "duck",
+      "id": 19
+    },
+    {
+      "size": "small",
+      "type": "chicken",
+      "id": 20
+    },
+    {
+      "size": "small",
+      "type": "chicken",
+      "id": 21
+    },
+    {
+      "size": "small",
+      "type": "chicken",
+      "id": 22
     }
   ]
 }

@@ -1,27 +1,32 @@
 
 .eggs-list {
-    margin: 0 auto;
-    padding: 20px;
-    width: 300px;
-    background-color: paleturquoise;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  background-color: floralwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid lightgray;
+}
   
-  .small {
-    width: 25px;
-    height: 25px;
-  }
-  
-  .medium {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .large {
-    width: 35px;
-    height: 35px;
-  }
+.eggs-list img {
+  margin: 5px;
+}
+
+.small {
+  width: 25px;
+  height: 25px;
+}
+
+.medium {
+  width: 30px;
+  height: 30px;
+}
+
+.large {
+  width: 35px;
+  height: 35px;
+}
   

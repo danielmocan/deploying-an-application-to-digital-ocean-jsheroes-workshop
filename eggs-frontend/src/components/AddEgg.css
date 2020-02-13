@@ -12,3 +12,12 @@
 .egg-type {
     margin: 10px;
 }
+
+button {
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: tan;
+    color: dark
+}

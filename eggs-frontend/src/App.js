@@ -27,6 +27,7 @@ class App extends Component {
   render() { 
     return (
       <div className="App">
+          <img src="images/logo.png" />
           <Eggs eggs={this.state.eggs} />
           <AddEgg saveEgg={this.saveEgg} />
       </div>

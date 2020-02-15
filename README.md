@@ -11,7 +11,7 @@ What did we do:
 4. Some of us used launch console to login in the droplet (remember user is root, you can get your password by reseting it)
 5. Cloned this repo
 6. Installed node with a specific version: ```bash curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -``` and ```bash apt install nodejs```
-7. We blocked all the incomming network request using ufw (Uncomplicated Firewall), remeber by default its inactive:
+7. We blocked all the incomming network request using ufw (Uncomplicated Firewall), remember by default its inactive:
     * ```bash ufw status``` (checks the status)
     * ```bash ufw default deny incoming```
     * ```bash ufw default allow outgoing```

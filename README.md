@@ -28,5 +28,5 @@ What did we do:
     * ```bash pm2 status```
     * ```bash pm2 logs```
     
-10. Reminder... don't forget to delete your droples if you don't use them. Else you will have to pay for them.
+10. Reminder... don't forget to delete your droplets if you don't use them. Else you will have to pay for them.
 

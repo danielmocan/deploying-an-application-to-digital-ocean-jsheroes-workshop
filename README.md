@@ -12,21 +12,21 @@ What did we do:
 5. Cloned this repo
 6. Installed node with a specific version: ```bash curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -``` and ```bash apt install nodejs```
 7. We blocked all the incomming network request using ufw (Uncomplicated Firewall), remember by default its inactive:
-    * ```bash ufw status``` (checks the status)
-    * ```bash ufw default deny incoming```
-    * ```bash ufw default allow outgoing```
-    * ```bash ufw allow ssh``` // do this before enabling the firewall
-    * ```bash ufw enable```
-    * ```bash ufw allow 8080``` // how to open ports to accept incoming requests
-    * ```bash ufw allow 3000``` // don't forget to open the port for the api
+    * ```ufw status``` (checks the status)
+    * ```ufw default deny incoming```
+    * ```ufw default allow outgoing```
+    * ```ufw allow ssh``` // do this before enabling the firewall
+    * ```ufw enable```
+    * ```ufw allow 8080``` // how to open ports to accept incoming requests
+    * ```ufw allow 3000``` // don't forget to open the port for the api
  8. Changed the api link in the frontend repo to use the ip of the server(use your custom domain name if you will have one attached to droplet) and rebuild the project
  9. Installed pm2 to help us manage processed
-    * ```bash npm install pm2 -g```
-    * ```bash pm2 start node index.js --name frontend``` // starting the small express server that servers the frontend build dist
-    * ```bash pm2 start npm -- start``` // the other option to start with an npm script, we used this for starting the api and our test database (json-server)
-    * ```bash pm2 stop frontend```
-    * ```bash pm2 status```
-    * ```bash pm2 logs```
+    * ```npm install pm2 -g```
+    * ```pm2 start node index.js --name frontend``` // starting the small express server that servers the frontend build dist
+    * ```pm2 start npm -- start``` // the other option to start with an npm script, we used this for starting the api and our test database (json-server)
+    * ```pm2 stop frontend```
+    * ```pm2 status```
+    * ```pm2 logs```
     
 10. Reminder... don't forget to delete your droplets if you don't use them. Else you will have to pay for them.
 

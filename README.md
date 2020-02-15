@@ -7,7 +7,7 @@ What did we do:
 
 1. Createad out Digital Ocean account
 2. Created our VM / Droplet with Ubuntu 18, standard plan and 5$ per month (enough for our testing porpouse ). Use this link https://m.do.co/c/34f48445bac1 to get 100$ credit for 60 days.
-3. added our SSH
+3. added our SSH key to Digital Ocean
 4. Some of us used launch console to login in the droplet (remember user is root, you can get your password by reseting it)
 5. Cloned this repo
 6. Installed node with a specific version: ```bash curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -``` and ```bash apt install nodejs```
